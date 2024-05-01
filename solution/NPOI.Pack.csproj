@@ -9,6 +9,12 @@
     <OutputPath>..\solution\$(Configuration)\</OutputPath>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>NPOIGlysade</PackageId>	
+    <VersionPrefix>2.7.0</VersionPrefix>
+    <VersionSuffix>fix</VersionSuffix>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\main\NPOI.Core.csproj" />
     <ProjectReference Include="..\ooxml\NPOI.OOXML.Core.csproj" />
